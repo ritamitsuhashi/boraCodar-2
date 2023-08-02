@@ -7,7 +7,6 @@ function verGif() {
 
 */
 
-
 function verGif() {
   if (
     document.getElementById("sofaEstatico").src == "./assets/card-sofa-estatico.png"
