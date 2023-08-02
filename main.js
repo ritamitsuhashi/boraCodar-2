@@ -1,4 +1,12 @@
-/* let imgSofa = document.getElementById("sofaEstatico"); */
+/* O código abaixo só troca uma vez. Outros problemas: tamanho do gif / trocar o .svg do 360 pra um "x" de fechar animação.
+let sofaEstatico = document.querySelector('#sofaEstatico');
+
+function verGif() {
+  sofaEstatico.src = './assets/card-sofa-girando.gif';
+}
+
+*/
+
 
 function verGif() {
   if (
