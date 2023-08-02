@@ -1,0 +1,75 @@
+* {
+  background-color: #d9cdf7;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.cardSofa {
+  flex-direction: column;
+  width: 449px;
+  height: 253px;
+  /*border: 1px solid black;*/
+}
+
+.botaoGif {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 340px;
+}
+
+.boxTexto {
+  margin-top: 60px;
+  margin-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.codigo {
+  color: #271a45;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  /*border: 1px solid black;*/
+}
+
+h1 {
+  font-family: Crimson Pro;
+  font-weight: 600;
+  font-size: 32px;
+  color: #271a45;
+  /*border: 1px solid #000;*/
+}
+
+.priceTag {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+  color: #271a45;
+  /*border: 1px solid #000;*/
+}
+
+.botaoComprar {
+  cursor: pointer;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 999px;
+  border: 0.5px solid #271a45;
+
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
