@@ -20,16 +20,20 @@
   </head>
   <body>
     <div class="cardSofa">
+      <button class="botaoGif" onclick="verGif()">
+        <img src="./assets/Vector.svg" alt="Imagem 360" />
+      </button>
       <div>
-        <button class="botaoGif" onclick="verGif()"><img src="./assets/Vector.svg" alt="Imagem 360" /></button>
+        <img src="./assets/card-sofa1.png" alt="Imagem de um sofá cor rosé" id="sofaEstatico"/>
       </div>
-      <img src="./assets/card-sofa1.png" alt="Imagem de um sofá cor rosé" />
     </div>
     <div class="boxTexto">
       <p class="codigo">CÓDIGO: 42404</p>
       <h1>Sofá Margot II - Rosé</h1>
       <p class="priceTag">R$ 4.000</p>
-      <button onclick="adicionarProduto()" class="botaoComprar">Adicionar à cesta</button>
+      <button onclick="adicionarProduto()" class="botaoComprar">
+        Adicionar à cesta
+      </button>
     </div>
     <script src="main.js"></script>
   </body>
