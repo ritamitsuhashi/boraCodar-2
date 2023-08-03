@@ -1,36 +1,21 @@
-/* O código abaixo só troca uma vez. Outros problemas: tamanho do gif / trocar o .svg do 360 pra um "x" de fechar animação.
-
-let sofaEstatico = document.querySelector('#sofaEstatico');
-
 function verGif() {
-  sofaEstatico.src = './assets/card-sofa-girando.gif';
-}
+  let sofaEstatico = document.getElementById("sofaEstatico");
+  let botaoGirar = document.getElementById("botaoGirar");
 
-
-function verGif() {
   if (
-    document.getElementById("sofaEstatico").src == "./assets/card-sofa-estatico.png"
+    sofaEstatico.src == "http://127.0.0.1:5500/assets/card-sofa-estatico.png"
   ) {
-    document.getElementById("sofaEstatico").src = "./assets/card-sofa-girando.gif";
+    sofaEstatico.src = "http://127.0.0.1:5500/assets/card-sofa-girando.gif";
   } else {
-    document.getElementById("sofaEstatico").src = "./assets/card-sofa-estatico.png";
+    sofaEstatico.src = "http://127.0.0.1:5500/assets/card-sofa-estatico.png";
+  }
+
+  if (botaoGirar.src == "http://127.0.0.1:5500/assets/botao360.svg") {
+    botaoGirar.src = "http://127.0.0.1:5500/assets/fechar.svg";
+  } else {
+    botaoGirar.src = "http://127.0.0.1:5500/assets/botao360.svg";
   }
 }
-*/
-
-let sofaEstatico = document.getElementById('#sofaEstatico');
-
-function verGif() {
-  if ( sofaEstatico.src == '/assets/card-sofa-estatico.png'
-  ) {
-  sofaEstatico.src = '/assets/card-sofa-girando.gif';
-  } else {
-    sofaEstatico.src = '/assets/card-sofa-estatico.png';
-  }
-}
-
-
-
 
 function adicionarProduto() {
   alert("Produto adicionado à cesta.");
