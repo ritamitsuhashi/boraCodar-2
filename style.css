@@ -10,8 +10,8 @@ body {
 
 .cardSofa {
   flex-direction: column;
-  width: 449px;
-  height: 253px;
+  max-width: 449px;
+  max-height: 253px;
   /*border: 1px solid black;*/
 }
 
